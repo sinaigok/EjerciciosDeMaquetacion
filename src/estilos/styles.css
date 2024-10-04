@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 280px;
+    height: 500px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+.card1 img{
+    text-align: center;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.datos{
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgba(109, 37, 185, 1);
+        font-size: 45px;
+    }
+    p{
+        color: rgba(124, 118, 126, 1);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+}
+.descripcion{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.card1 .boton{
+    background-color: rgba(115, 39, 228, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+    p{
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.card2{
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: lightgray;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    padding-top: 70px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+
+}
+.card2 img{
+    border-radius: 50%;
+    text-align: center;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.texto{
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.texto h1{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.texto p{
+    padding-top: 10px;
+    width: 250px;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+
+}
+
+.card2 .boton{
+    margin-top: 80px;
+    background-color: rgba(242, 177, 74, 1) ;
+    padding: 12px;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    h1{
+        font-weight: bold;
+        color: white;
+        font-size: small;
+    }
+    border: 0;
+    box-shadow: 1px 1px 5px gray;
+    
+}
+
+.slides{
+    margin-top: 25px;
+}
+
+.slides ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.slides ul li{
+    margin-right: 10px;
+}
+
+.slides ul li button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: darkgray;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.slides ul li .activo{
+    background-color: gray;
+}
+
+.card3 {
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(160, 70, 108, 1);
+    border-width: 30px;
+    margin: 0 auto;
+    width: 410px;
+    height: 410px;
+    display: block;
+    text-align: center;
+    
+
+}
+ .card3 img{
+    
+    text-align: center;
+    width: 180px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+
+.card3 .texto {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+}
+.card3 .texto h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    font-weight: regular;
+    color:rgba(83, 83, 83, 1);
+}
+.card3 .texto p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    -webkit-text-stroke: 0.5px;
+    color: rgba(123, 123, 123, 1);
+}
+
+.card3 .boton{
+    background-color: rgba(238, 104, 161, 1);
+    margin: o auto;
+    padding-left: 36%;
+    padding-right: 41%;
+    border: 0;
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card3 .boton h1{
+    font-size: 17px;
+    color: white;
+
+}
